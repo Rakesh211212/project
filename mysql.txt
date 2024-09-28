@@ -1,0 +1,12 @@
+create database project;
+use project;
+create table record(
+individual_id int(20),
+individual_name varchar(30),
+entry_time date,
+exit_time date,
+primary key(individual_id));
+
+insert into record values(24,'Akash','2024-01-02','2024-05-10');
+
+select * from record;
